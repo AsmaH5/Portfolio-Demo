@@ -140,9 +140,8 @@ button:hover{
 
 .page-wrapper{
     display: block;
-   
-  background-color: var(--main-color);
-  background-image:
+    background-color: var(--main-color);
+    background-image:
     linear-gradient(
       to top right, 
       #BFB3D4, #818AB8);
@@ -163,6 +162,37 @@ button:hover{
 
 
 
+.page-section h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 1%;
+}
+
+.work{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-areas: 
+    "work1 work2 work3"
+    "work1";
+    grid-template-columns: 1fr 20% 20%;
+    margin: 5%
+
+}
+
+.work div:first-child{
+    border: 2px solid lightgrey ;
+    height: 450px;
+
+}
+
+.text {
+    padding: 15px;
+    
+}
+
+.work1{
+    background-image: url(Assets/images/card2.jpg);
+}
 
 
 
@@ -178,7 +208,7 @@ button:hover{
 }
 
 #contact li a:hover {
-    color: #6e728a;
+    color: #6e728a;  
     
 }
 
@@ -190,10 +220,12 @@ button:hover{
     text-decoration-thickness: 1.5px;
 }
 
+
 footer{
     padding: 20px;
     text-align: center;
 }
+
 /*
 .img:hover{
   filter: grayscale(0);
