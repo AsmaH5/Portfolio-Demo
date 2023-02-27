@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+:root{
+    --background-color: rgb(32,25,50);
+    --nav-color:#edf0f1;
+    --main-color: #BFB3D4;
+
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +46,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: rgb(32,25,50);
+    background-color: var(--background-color);
     color: white;
     flex-wrap: wrap;
   
@@ -65,7 +73,7 @@ header li a {
     font-size: 20px;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
-    color: #edf0f1;
+    color:var(--nav-color);
     text-align: center;
     font-weight: bold;
     cursor: pointer; 
@@ -97,7 +105,7 @@ button{
 
 .resume a {
     text-decoration: none;
-    color: #edf0f1;
+    color: var(--nav-color)
 }
 
 button:hover{
@@ -133,7 +141,7 @@ button:hover{
 .page-wrapper{
     display: block;
    
-  background-color: #BFB3D4;
+  background-color: var(--main-color);
   background-image:
     linear-gradient(
       to top right, 
@@ -142,7 +150,7 @@ button:hover{
 
 
 .page-wrapper h2{
-    border-bottom: 2px solid rgb(32,25,50);
+    border-bottom: 2px solid var(--background-color);
     margin: 0px 1%;
     padding: 10px;
 }
