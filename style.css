@@ -1,3 +1,25 @@
+@media (min-width:468px){
+    header{
+        display: flex};
+
+    .container{
+        display: flex};
+
+    .page-wrapper{
+        display: block;}
+
+    .page-section{
+        display: grid;}
+
+    .page-section-contact{
+
+    }   
+    footer{
+
+    } 
+}    
+     
+    
 * {
   box-sizing: border-box;
 }
@@ -179,21 +201,21 @@ button:hover{
     "work1";
     grid-template-columns: 1fr 20% 20%;
     margin: 5%;
-
+    overflow: hidden;
 }
 
-
-
-.work div:first-child{
-    
+.work div:first-child{   
     height: 450px;
-
 
 }
 
 .work div{
     background-position: center;
     background-size: cover;
+    filter: grayscale(80%);
+    border: 5px solid var(--background-color);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
     
 }
 
@@ -206,6 +228,7 @@ button:hover{
 .work2{
     
     background-image: url(Assets/images/food2.jpg);
+    
 }
    
 
@@ -215,6 +238,9 @@ button:hover{
     
 }
 
+.work div:hover{
+    filter: none;
+}
 
 
 #text {
@@ -227,11 +253,10 @@ button:hover{
   width: 300px;
   margin: 2%;
   background-color: rgba(211, 211, 211, 0.685);
+  
 
 }
-
-
-    
+  
 
 #contact li a {
     
@@ -264,8 +289,3 @@ footer{
     text-align: center;
 
 }
-
-/*
-.img:hover{
-  filter: grayscale(0);
-}*/
