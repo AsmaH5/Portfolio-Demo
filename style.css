@@ -160,8 +160,9 @@ button:hover{
     padding: 10px;
 }
 
-
-
+.page-section{
+    display: grid;
+}
 .page-section h3{
     font-size: 20px;
     font-weight: bold;
@@ -175,26 +176,60 @@ button:hover{
     "work1 work2 work3"
     "work1";
     grid-template-columns: 1fr 20% 20%;
-    margin: 5%
+    margin: 5%;
 
 }
+
+
 
 .work div:first-child{
-    border: 2px solid lightgrey ;
+    
     height: 450px;
+
 
 }
 
-.text {
-    padding: 15px;
+.work div{
+    background-position: center;
+    background-size: cover;
     
 }
 
 .work1{
+   
     background-image: url(Assets/images/card2.jpg);
+    
+}
+
+.work2{
+    
+    background-image: url(Assets/images/food2.jpg);
+}
+   
+
+.work3{
+    
+    background-image: url(Assets/images/laptop2.jpg);
+    
 }
 
 
+
+#text {
+    cursor: pointer;
+  display: grid;
+  padding: 15px;
+  border: 1.5px solid rgb(161, 156, 156);
+  align-items: end;
+  height: 100px;
+  width: 300px;
+  margin: 2%;
+  background-color: rgba(211, 211, 211, 0.685);
+
+}
+
+
+    
 
 #contact li a {
     
