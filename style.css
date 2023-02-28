@@ -1,4 +1,4 @@
-@media (min-width:468px){
+@media screen and (min-width:468px){
     header{
         display: flex};
 
@@ -11,6 +11,15 @@
     .page-section{
         display: grid;}
 
+    .work{
+        display: grid;
+    }  
+    
+    
+    #text a {
+        display: grid;
+    }
+
     .page-section-contact{
 
     }   
@@ -18,8 +27,7 @@
 
     } 
 }    
-     
-    
+      
 * {
   box-sizing: border-box;
 }
@@ -28,6 +36,9 @@
     --background-color: rgb(32,25,50);
     --nav-color:#edf0f1;
     --main-color: #BFB3D4;
+    --dark: black;
+    --size: 20px;
+    --size2: 25px;
 
 
 }
@@ -54,7 +65,7 @@ header h1{
 }
 
 h3 {
-    font-size: 25px;
+    font-size: var(--size2);
     font-weight: 300;
     margin: 0px 0px;
   }
@@ -88,13 +99,13 @@ ul{
 
 li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px var(--size);
     
 
 }
 
 header li a {
-    font-size: 25px;
+    font-size: var(--size2);
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     color:var(--nav-color);
@@ -124,7 +135,7 @@ button{
     border: none;
     transition: all 0.3s ease 0s;
     font-size: 25px;
-    margin-left: 20px;   
+    margin-left: var(--size);   
 }
 
 .resume a {
@@ -160,8 +171,6 @@ button:hover{
 }
 
 
-
-
 .page-wrapper{
     display: block;
     background-color: var(--main-color);
@@ -186,6 +195,7 @@ button:hover{
 
 .page-section{
     display: grid;
+    
 }
 .page-section h3{
     font-size: 20px;
@@ -202,6 +212,8 @@ button:hover{
     grid-template-columns: 1fr 20% 20%;
     margin: 5%;
     overflow: hidden;
+    
+    
 }
 
 .work div:first-child{   
@@ -216,7 +228,7 @@ button:hover{
     border: 5px solid var(--background-color);
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
+        
 }
 
 .work1{
@@ -253,8 +265,13 @@ button:hover{
   width: 300px;
   margin: 2%;
   background-color: rgba(211, 211, 211, 0.685);
-  
+   
+}
 
+.work a{
+    text-decoration: none; 
+    color: var(--dark);
+   
 }
   
 
@@ -262,7 +279,7 @@ button:hover{
     
     text-decoration-line: underline;
     text-decoration-thickness: 1.5px;
-    color: black;
+    color: var(--dark);
     text-align: center;
     cursor: pointer; 
     transition: all 0.3s ease 0s;
@@ -285,7 +302,7 @@ button:hover{
 
 
 footer{
-    padding: 20px;
+    padding: var(--size);
     text-align: center;
 
 }
