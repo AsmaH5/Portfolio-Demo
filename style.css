@@ -131,11 +131,12 @@ button{
     transition: all 0.3s ease 0s;
     font-size: 25px;
     margin-left: var(--size);   
+    color: var(--nav-color)
 }
 
 .resume a {
     text-decoration: none;
-    color: var(--nav-color)
+
 }
 
 button:hover{
