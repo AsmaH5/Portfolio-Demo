@@ -20,10 +20,11 @@ To showcase what I have learnt so far about: CSS, CSS Flex, CSS Grids, media que
 ## Usage:
 To use this Portfolio-demo, you can review the each project by either pressing the images or texts. You can also use the navigation bar to jump to each section on the web page. The reume button allows you to downloand my demo resume and the 'Github' link at the bottom of the page opens up my Github page.
 
-## Use this Profile for insporation:
-![alt text](assets/images/Inspo1.png)
-![alt text](assets/images/Inspo2.png)
-![alt text](assets/images/Inspo3.jpeg)
+## Profiles for insporation:
+<img width="599" alt="Inspo1" src="https://user-images.githubusercontent.com/97250633/221959081-1ed8376f-9b45-4611-a95e-19ae254c19ef.png">
+<img width="603" alt="Inspo2" src="https://user-images.githubusercontent.com/97250633/221959097-c087a29c-b56c-47f9-b3fa-b22a7cfd89b0.png">
+![Inspo3](https://user-images.githubusercontent.com/97250633/221959113-ae6d987a-61a6-4003-8f4b-88e58790db5e.jpeg)
+
 
 ## Project Link:
 https://github.com/your_username/repo_name
